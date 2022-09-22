@@ -11,7 +11,7 @@ This project primarily involved the HTML and CSS languages.  However we also use
 ## Methods Used
 To refactor the HTML code, I looked for anything that looked out of place or redundant.  This involved eliminating unnecessary div tags, classes, and more. I also looked for any elements that did not read semantically. Many div tags could be replaced by another element such as main, section, footer, and more.
 
-To refactor the CSS code, I similarly looked for anything that looked out of place or redundant.  I looked for repitition, particularly classes or elements that shared the exact same properties and values.  This also gave me a chance to see more HTML code that needed to be refactored
+To refactor the CSS code, I similarly looked for anything that looked out of place or redundant.  I looked for repetition, particularly classes or elements that shared the exact same properties and values.  This also gave me a chance to see more HTML code that needed to be refactored
 
 ## An Example of some refactored HTML code
 
