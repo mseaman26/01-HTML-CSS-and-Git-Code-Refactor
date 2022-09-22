@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* This header didn't need to be a class selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,8 @@ header h1 {
 #seo {
     color: #d9dcd6;
 }
-
+/* the original styling for this portion, which is now a <nav>, 
+contained a lot of redundancy, which I eliminated */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,15 +47,17 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* This image portion is simpler now that is no longer a background image and has an ID, rather than a class now */
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
-
+/* this area was originally a class called “content.”  
+I also moved it up higher, so that this file would read a bit more 
+in order corresponding with the flow of the page */
 main{
     width: 75%;
     display: inline-block;
@@ -69,7 +72,9 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* I thought about refactoring these following two class selectors, 
+but they actually seem fairly efficient.  I could be wrong and I will 
+modify if I think of something */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -84,12 +89,13 @@ main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
+/* 
+All three images in what is now the <main> portion shared this property, 
+so the CSS could be consolidated here */
 main img {
     max-height: 200px;
 }
-
+/* A lot of consolidation occurred in what is now the <aside>.   */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -125,6 +131,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+h4 {
     font-size: 20px;
 }
