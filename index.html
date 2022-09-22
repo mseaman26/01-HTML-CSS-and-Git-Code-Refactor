@@ -8,9 +8,15 @@
 </head>
 
 <body>
+    <!-- Got rid of an unnecessary <div>
+    element add “header” class and simply made this a header tag -->
     <header>
+        <!-- Made “seo” and ID rather than a class,
+         because it is only used once -->
         <h1>Hori<span id="seo">seo</span>n</h1>
         <nav>
+            <!-- eliminated an unnecessary <div. here, the <ul> 
+                is all we need -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,7 +30,12 @@
             </ul>
         </nav>
     </header>
+    <!-- This <img> was originally a <div> with a background image and with a 
+    class “hero,” but I figured it’s unnecessary to have it as a background 
+    image because there’s nothing on top of it.  Plus it reads more 
+    semantically this way -->
     <img src="./assets/images/digital-marketing-meeting.jpg" class="hero" alt="Three men and one woman at a conference table working on digital marketing"></img>
+    <!-- Got rid of more <div>s and used <main> and multiple <section>s within -->
     <main>
         <section class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="image of a table containing a laptop, office supplies, coffee, and a notepad with SEO written on its cover"/>
@@ -48,6 +59,10 @@
             </p>
         </section>
     </main>
+    <!-- Changed this section from a <div> to an <aside>.  
+    I was thus able to get rid of a class selector as well. The divs
+    within were also converted to <section>s.  I was also able to eliminate
+    multiple unnecessary classes within the <aside>-->
     <aside>
         <section>
             <h3>Lead Generation</h3>
@@ -71,6 +86,8 @@
             </p>
         </section>
     </aside>
+    <!-- eliminated yet another unnecessary class and changed this div to a 
+    more semantic <footer> tag -->
     <footer>
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
