@@ -1,17 +1,17 @@
 # Refactored-HTML-and-CSS-for-Horiseon-Webpage-
-I was given HTML and CSS code that needed to be refactored.  The code functioned fine and rendered a webpage for a digital marketing company called Horiseon
+I was given HTML and CSS code that needed to be refactored.  The code functioned fine and rendered a webpage for a digital marketing company called Horiseon. My job was to refactor this code to make it as elegant, semantic, accessible, and as simple as possible without changing the look of the webpage at all.
 
-## An Overview of the Website
+## An Overview of How the Website Looks
 
 ![Horiseon](./assets/01-html-css-git-homework-demo.png)
 
 ## Languages Used
-This project primarily involved the HTML and CSS languages.  However we also used command line, git, and github for storing the project in a repository and github pages for deployment
+This project primarily involved the HTML and CSS languages.  However I also used command line, git, and github for storing the project in a repository and github pages for deployment
 
 ## Methods Used
-To refactor the HTML code, I looked for anything that looked out of place or redundant.  This involved eliminating unnecessary div tags, classes, and more. I also looked for any elements that did not read semantically. Many div tags could be replaced by another element such as main, section, footer, and more.
+To refactor the HTML code, I looked for anything that looked out of place or redundant.  This involved eliminating unnecessary \<div\> tags, classes, and more. I also looked for any elements that did not read semantically. All of the \<div\> tags could be replaced by other elements such as \<main\>, \<section\>, \<footer\>, and more.
 
-To refactor the CSS code, I similarly looked for anything that looked out of place or redundant.  I looked for repetition, particularly classes or elements that shared the exact same properties and values.  This also gave me a chance to see more HTML code that needed to be refactored
+To refactor the CSS code, I similarly looked for anything that looked out of place or redundant.  I looked for repetition, particularly classes or elements that shared the exact same properties and values with one another.  This also gave me a chance to see more HTML code that needed to be refactored
 
 ## An Example of some refactored HTML code
 
@@ -76,8 +76,16 @@ aside section{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 ```
+## Other Goals for this project
+- To further my understanding and grow my skillset in the above mentioned languages and technologies
+- To better understand what a potential user would be looking for when viewing my future projects on github
+- To give me a profound sense of accomplishment
+<br>
+<br>
+## -By Michael Seaman
+
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/michael-seaman-120a59250/)
 [GitHub](https://github.com/mseaman26)
+
