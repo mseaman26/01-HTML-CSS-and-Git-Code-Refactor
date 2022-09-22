@@ -9,15 +9,16 @@
 
 <body>
     <!-- Got rid of an unnecessary <div>
-    element add “header” class and simply made this a header tag -->
+    element and “header” class and simply made this a header tag -->
     <header>
-        <!-- Made “seo” and ID rather than a class,
-         because it is only used once 
-        Also made sure the the header tags were in proper order, going from
+        <!-- Made “seo” an ID rather than a class,
+         because it is only used once.
+        Also made sure that the header tags were in proper order, going from
         h1 to h2, h3 etc...-->
         <h1>Hori<span id="seo">seo</span>n</h1>
+        <!-- This <nav> was originally a <div> . It is now more semantic  -->
         <nav>
-            <!-- eliminated an unnecessary <div. here, the <ul> 
+            <!-- eliminated an unnecessary <div>. Here, the <ul> 
                 is all we need -->
             <ul>
                 <li>
@@ -33,12 +34,13 @@
         </nav>
     </header>
     <!-- This <img> was originally a <div> with a background image and with a 
-    class “hero,” but I figured it’s unnecessary to have it as a background 
+    class “hero.” I figured it’s unnecessary to have it as <div> with a background 
     image because there’s nothing on top of it.  Plus it reads more 
     semantically this way -->
      <!-- added descriptive alt properties to this <img> 
-            and to all the others in this file -->
-    <img src="./assets/images/digital-marketing-meeting.jpg" id="hero" alt="Three men and one woman at a conference table working on digital marketing"></img>
+            and to all the other <img>s in this file -->
+    <img src="./assets/images/digital-marketing-meeting.jpg" id="hero" alt="Three men and one woman at a conference 
+    table working on digital marketing">
     <!-- Got rid of more <div>s and used <main> and multiple <section>s within -->
     <main>
         <section class="search-engine-optimization">

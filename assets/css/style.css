@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* This header didn't need to be a class selector */
+/* This header didn't need to be a class selector. It's better as an element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,7 +47,8 @@ a {
 p {
     font-size: 16px;
 }
-/* This image portion is simpler now that is no longer a background image and has an ID, rather than a class now */
+/* This image portion is simpler, now that is no longer a div with a background image.
+It now has an ID, rather than a class*/
 #hero {
     height: 800px;
     width: 100%;
@@ -95,7 +96,8 @@ so the CSS could be consolidated here */
 main img {
     max-height: 200px;
 }
-/* A lot of consolidation occurred in what is now the <aside>.   */
+/* A lot of consolidation occurred in what is now the <aside>.  Many redundant selectors were
+eliminated */
 aside {
     margin-right: 20px;
     padding: 20px;
