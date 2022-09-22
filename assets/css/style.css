@@ -53,7 +53,9 @@ It now has an ID, rather than a class*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
+    /* had to do a little research to discover this next property to ensure the image wouldn't 
+    stretch when resizeing the window */
+    object-fit: cover;
     background-position: center;
 }
 /* this area was originally a class called “content.”  
