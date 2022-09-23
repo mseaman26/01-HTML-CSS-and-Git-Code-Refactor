@@ -14,8 +14,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
-header h1 {
+/* theres only one h1 in the HTML file, so I can use an element selector here */
+h1 {
     display: inline-block;
     font-size: 48px;
 }

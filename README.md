@@ -1,5 +1,5 @@
 # Refactored-HTML-and-CSS-for-Horiseon-Webpage-
-I was given HTML and CSS code that needed to be refactored.  The code functioned fine and rendered a webpage for a digital marketing company called Horiseon. My job was to refactor this code to make it as elegant, semantic, accessible, and as simple as possible without changing the look of the webpage at all.
+I was given HTML and CSS code that needed to be refactored.  The code functioned fine and rendered a webpage for a digital marketing company called Horiseon. My job was to modify this code to make it as elegant, semantic, accessible, and as simple as possible without changing the look of the webpage at all.
 
 ## An Overview of How the Website Looks
 
